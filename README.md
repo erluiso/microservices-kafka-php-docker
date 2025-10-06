@@ -5,8 +5,6 @@ This repository contains a small project to see how the microservices work, and 
 
 With this application you will can register a new user (name and email) and save them in a data base. Once saved, the system will send a registration email, and store the email and date of dispatch in the database.
 
-You will need to install `Docker` (Docker compose) to launch the diferents services to start and to test it.
-
 ![Alt text](screenshot.png)
 
 ## About the script
