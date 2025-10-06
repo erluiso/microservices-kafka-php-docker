@@ -1,0 +1,17 @@
+services:
+  user-service:
+    container_name: microservice-users
+    build: ./ms-users
+    restart: always
+    volumes:
+      - ../../ms-users:/var/www/html
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_DATABASE=mydatabase
+      - APACHE_PORT=11000
+    depends_on:
+      - mysql
+    ports:
+      - "127.0.0.2:80:80"

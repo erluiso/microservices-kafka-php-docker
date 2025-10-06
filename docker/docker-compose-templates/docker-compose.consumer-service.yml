@@ -1,0 +1,9 @@
+services:
+  consumer-service:
+    container_name: consumer
+    build: ./ms-consumer
+    restart: always
+    ports:
+      - "127.0.0.5:80:80"
+    volumes:
+      - ../../ms-consumer:/var/www/html

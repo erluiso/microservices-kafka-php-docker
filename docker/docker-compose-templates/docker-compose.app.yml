@@ -1,0 +1,9 @@
+services:
+  app:
+    container_name: app
+    build: ./app
+    restart: always
+    ports:
+      - "127.0.0.1:80:80"
+    volumes:
+      - ../../app:/var/www/html

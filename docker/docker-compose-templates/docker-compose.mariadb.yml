@@ -1,0 +1,10 @@
+services:
+  mariadb:
+    container_name: mariadb
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'root'
+      MYSQL_DATABASE: 'emails'
