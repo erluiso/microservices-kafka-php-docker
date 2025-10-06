@@ -42,7 +42,7 @@ This script launch eight services. The main application will send a request to a
 
 ## Quick start
 
-- Install [Docker] (https://www.docker.com/products/docker-desktop/) and download all files of this project in a localfolder. 
+- Install [Docker](https://www.docker.com/products/docker-desktop/) and download all files of this project in a localfolder. 
 - In linux or windows open a terminal and go to the project folder.
 
 
