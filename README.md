@@ -48,11 +48,11 @@ This script launch eight services. The main application will send a request to a
 
 ```Dockerfile
 
-docker-compose up -d
+$ docker-compose up -d
 
-```
+```Dockerfile
 
-- Open a browser and open the main app with this url: http://127.0.0.1/
+- Open a browser and open the main app with this url: [http://127.0.0.1/](http://127.0.0.1/)
 
 And that's all!
 
