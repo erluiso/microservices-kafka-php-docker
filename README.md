@@ -3,13 +3,13 @@ Example of microservices in PHP + Kafka + Docker
 
 This repository contains a small project to see how the microservices work, and shows how the microservices are connected with kafka to perform differents tasks.
 
-With this application you will can register a new user (name and email) and save them in a data base. Once saved, the system will send a registration email and will save the email and date of dispatch in the data base.
+With this application you will be able to register a new user (name and email) and save them in a data base. Once saved, the system will send a registration email and will save the email and date of dispatch in the data base.
 
 ![Alt text](screenshot.png)
 
 ## About the script
 
-This script starts eight services. The main application will send a request to a microservice to save the user's data. Once saved, this microservice will send a message to Kafka via the producer. Another service (consumer) will be listening to Kafka so that when it receives a message, it will call the email sending microservice.
+This script starts eight services. The main application will send a request to a microservice to save the user's data. Once saved, this microservice will send a message to Kafka via the producer. Another service (consumer) will be listening to Kafka so when it receives a message, it will call the email sending microservice.
 
 ## Communication diagram between services
 
@@ -46,7 +46,7 @@ This script starts eight services. The main application will send a request to a
 
 - Install [Docker](https://www.docker.com/products/docker-desktop/) and download all files of this project in a localfolder. 
 - In linux or windows open a terminal and go to the project folder.
-- Execute this code to create the images and containers in Docker and launch the services:
+- Execute this code to create the images and containers in Docker and start the services:
 
 ```Dockerfile
 
