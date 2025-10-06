@@ -1,0 +1,8 @@
+include:
+  - docker/docker-compose-templates/docker-compose.mysql.yml
+  - docker/docker-compose-templates/docker-compose.mariadb.yml
+  - docker/docker-compose-templates/docker-compose.app.yml
+  - docker/docker-compose-templates/docker-compose.email-service.yml
+  - docker/docker-compose-templates/docker-compose.user-service.yml
+  - docker/docker-compose-templates/docker-compose.consumer-service.yml
+  - docker/docker-compose-templates/docker-compose.kafka.yml
