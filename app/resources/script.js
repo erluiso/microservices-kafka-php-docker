@@ -26,8 +26,10 @@ window.onload = function()
 
     refreshLogs();
 
-    //We call to the comsumer
-    sendRequest(URL_MICROSERVICE_4);
+    //We launch to the comsumer
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", URL_MICROSERVICE_3, true);
+    xhr.send();
 }
 
 /**
