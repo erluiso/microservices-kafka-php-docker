@@ -1,0 +1,48 @@
+2025-10-06 13:04:04 Deleting logs in email microservice
+2025-10-06 13:04:04 Logs deleted
+2025-10-06 13:04:06 A POST request has been received: https://email-service/emails/sendRegisterEmail
+2025-10-06 13:04:06 Saving user email: mariocb@hotmail.com
+2025-10-06 13:04:06 Email saved!
+2025-10-06 13:04:06 The register email has been sended to => mariocb@hotmail.com
+2025-10-06 13:04:08 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:08 Searching all emails sended
+2025-10-06 13:04:13 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:13 Searching all emails sended
+2025-10-06 13:04:18 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:18 Searching all emails sended
+2025-10-06 13:04:23 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:23 Searching all emails sended
+2025-10-06 13:04:29 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:29 Searching all emails sended
+2025-10-06 13:04:34 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:34 Searching all emails sended
+2025-10-06 13:04:39 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:39 Searching all emails sended
+2025-10-06 13:04:44 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:44 Searching all emails sended
+2025-10-06 13:04:49 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:49 Searching all emails sended
+2025-10-06 13:04:54 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:54 Searching all emails sended
+2025-10-06 13:04:59 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:04:59 Searching all emails sended
+2025-10-06 13:05:04 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:05:04 Searching all emails sended
+2025-10-06 13:05:09 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:05:09 Searching all emails sended
+2025-10-06 13:05:14 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:05:14 Searching all emails sended
+2025-10-06 13:05:19 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:05:19 Searching all emails sended
+2025-10-06 13:05:24 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:05:24 Searching all emails sended
+2025-10-06 13:05:58 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:05:58 Searching all emails sended
+2025-10-06 13:06:58 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:06:58 Searching all emails sended
+2025-10-06 13:07:58 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:07:58 Searching all emails sended
+2025-10-06 13:08:58 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:08:58 Searching all emails sended
+2025-10-06 13:09:58 A GET request has been received: https://127.0.0.3/emails
+2025-10-06 13:09:58 Searching all emails sended

@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `emails`;
+
+CREATE TABLE emails (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100),
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO emails (email) VALUES ('yojuanmartinez@gmail.com');
