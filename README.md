@@ -44,11 +44,7 @@ This script launch eight services. The main application will send a request to a
 
 - Install [Docker](https://www.docker.com/products/docker-desktop/) and download all files of this project in a localfolder. 
 - In linux or windows open a terminal and go to the project folder.
-
-
-Install `Docker` and download all files of this project in a localfolder. In linux or windows open a terminal and go to the project folder.
-
-The next step is to execute this code to create the images and containers in Docker and launch the services:
+- Execute this code to create the images and containers in Docker and launch the services:
 
 ```Dockerfile
 
@@ -56,7 +52,7 @@ docker-compose up -d
 
 ```
 
-Open a browser and open the main app with this url: http://127.0.0.1/app
+- Open a browser and open the main app with this url: http://127.0.0.1/
 
 And that's all!
 
